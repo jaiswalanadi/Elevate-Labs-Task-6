@@ -13,3 +13,12 @@ GROUP BY
 ORDER BY
     order_year,
     order_month;
+
+
+
+CREATE TABLE online_sales (
+    order_id VARCHAR,
+    order_date DATE,
+    amount NUMERIC,
+    product_id VARCHAR
+);
